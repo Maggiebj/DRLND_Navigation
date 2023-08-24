@@ -3,9 +3,10 @@
 In this project, we applied DQN(Deep Q-Learning) model-free algorithm, base on the paper [Human-level control through deep reinforcement learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf). 
 DQN contains one deep neural network: Actor. The Actor is a policy network which takes the states as inputs and output each possible action (in discrete space) with corresponding Q state-action values.
 Deep Q network is an off policy network. Off policy learning is when the policy used for interacting with the environment(action) is different than the policy being learned. 
+
 To resolve neural function approximators having unstable problems, we have applied these methods:
 
-1. Prioritized replay buffer to minimize correlations between samples and speed up training, base on the paper [PRIORITIZED EXPERIENCE REPLAY](https://arxiv.org/abs/1511.05952). Instead of uniformly random sample minibatch of experiences, we sample with priorities and use importance sampling weight to adjust the distribution accordingly.
+1. Prioritized replay buffer to minimize correlations between samples and speed up training, base on the paper [PRIORITIZED EXPERIENCE REPLAY](https://arxiv.org/abs/1511.05952). Instead of uniformly random sampling minibatch of experiences, we sample with priorities and use importance sampling weight to adjust the distribution accordingly.
 
 ![Prioritized Experience Replay](prioritizedreplay.png)
 
