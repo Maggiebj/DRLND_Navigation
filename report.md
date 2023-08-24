@@ -78,7 +78,7 @@ To resolve neural function approximators having unstable problems, we have appli
 
 ### Result
 After around 600 episodes the avg score_deque(100) get higher than 13
-[scores on episodes](scores.png)
+![scores on episodes](scores.png)
 
 ### Ideas for Future Work
 
