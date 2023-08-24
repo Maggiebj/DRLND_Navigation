@@ -27,7 +27,7 @@ cd deep-reinforcement-learning/python
 pip install .
 ```
 3. Download unity environment file  [banana](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip). This is the "headless" version of the environment. You will not be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.
-(To watch the agent, you may follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the [environment for the Linux operating system](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip).)
+(To watch the agent, you may follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the [environment for the Linux operating system](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip).)
 
 5. Unzip the compressed file
 6. Create the Ipython kernel:
@@ -37,7 +37,7 @@ python -m ipykernel install --user --name=drnd
 
    
 ## Executing 
-In the notebook, be sure to change the kernel to match "drnd" by using the drop down in "Kernel" menu. Be sure the adjust the Reacher file location locally.
+In the notebook, be sure to change the kernel to match "drnd" by using the drop down in "Kernel" menu. Be sure the adjust the Banana file location locally.
 
 Executing Navigation.ipynb
   
